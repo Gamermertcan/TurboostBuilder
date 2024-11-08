@@ -5,7 +5,7 @@ Blockly.Blocks['npm_install'] = {
         .appendField("package");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
-    this.setColour(180);
+    this.setColour(60);
     this.setTooltip("");
     this.setHelpUrl("");
   }
@@ -30,7 +30,7 @@ Blockly.Blocks['npm_raw'] = {
         .appendField("command");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
-    this.setColour(180);
+    this.setColour(60);
     this.setTooltip("");
     this.setHelpUrl("");
   }
