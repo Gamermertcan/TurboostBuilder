@@ -227,7 +227,7 @@ const toolbox = {
                 block("raw_ret"),
             ],
         },
-        { kind: "category", name: "NPM", colour: "#FFFF00", contects: [ block("npm_install"), ],},
+        { kind: "category", name: "NPM", colour: "#FFFF00", contects: [ block("npm_install"), block("npm_raw")],},
         {
             kind: "category",
             name: "JSON",
@@ -452,8 +452,8 @@ $("#Export").click(() => {
         workspace.getAllVariables().forEach(v => v.name = Extension_id + "_" + v.name);
         download(
             `
-            // Made with PenguinBuilder ${version}
-            // use PenguinBuilder at "https://chickencuber.github.io/PenguinBuilder/"
+            // Made with TurboostBuilder ${version}
+            // use TurboostBuilder at "https://gamermertcan.github.io/TurboostBuilder/"
             (async function(Scratch) {
                 const blocks = [];
                 const vars = {};
