@@ -1,7 +1,7 @@
-const version = "3.6";
+const version = "1.0";
 
 const whats_new = `
-added more blocks, and colors are back
+release
 `;
 
 $("html").on("keydown", (e) => {
@@ -227,6 +227,7 @@ const toolbox = {
                 block("raw_ret"),
             ],
         },
+        { kind: "category", name: "NPM", colour: "#FFFF00", contects: [ block("npm_install"), ],},
         {
             kind: "category",
             name: "JSON",
