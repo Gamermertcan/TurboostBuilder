@@ -2,7 +2,7 @@ Blockly.Blocks['npm_install'] = {
   init: function() {
     this.appendValueInput("package")
         .setCheck("String")
-        .appendField("package");
+        .appendField("npm install");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(60);
@@ -27,7 +27,7 @@ Blockly.Blocks['npm_raw'] = {
   init: function() {
     this.appendValueInput("command")
         .setCheck("String")
-        .appendField("command");
+        .appendField("npm");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(60);

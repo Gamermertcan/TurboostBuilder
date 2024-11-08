@@ -227,7 +227,7 @@ const toolbox = {
                 block("raw_ret"),
             ],
         },
-        { kind: "category", name: "NPM", colour: "#FFFF00", contents: [ block("npm_install"), block("npm_raw")],},
+        { kind: "category", name: "NPM", colour: "#FFFF00", contents: [ block("npm_raw"), block("npm_install")],},
         {
             kind: "category",
             name: "JSON",
